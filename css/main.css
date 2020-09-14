@@ -1,0 +1,79 @@
+/*--- Colors --*/
+.b-pink{
+  background-color: #AE85B2;
+}
+.b-lightpurple{
+  background-color: rgba(127, 143, 205, 0.5);
+}
+.b-purple{
+  background-color: #68508D;
+}
+.b-darkpurple{
+  background-color: #1A1663;
+}
+.b-grey{
+  background-color: #E5E5E5;
+}
+.b-white{
+  background-color: #FEFCFC;
+}
+.c-darkpurple{
+  color:#1A1663;
+}
+.c-purple{
+  color: #68508D;
+}
+.c-ligthpurple{
+  color: #7F8FCD;
+}
+.c-pink{
+  color: #AE85B2;
+}
+.c-black{
+  color:#535353;
+}
+
+/*--- Tipography ---*/
+h1,h2{
+  font-family: 'Lato', sans-serif;
+}
+h3,p,span,quote{
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-size: 6em;
+}
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 20px;
+}
+.title-project{
+  font-size: 4em;
+}
+.link{
+  color: #7F8FCD;
+}
+.link:hover{
+  color: #68508D;
+  font-weight: bold;
+}
+a{
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 4px;
+  transition: all 0.5s ease-in-out;
+}
+a:hover{
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+/*--- Spaces ---*/
+.pd-sections{
+  padding: 8% 0;
+}
+
