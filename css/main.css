@@ -1,18 +1,18 @@
 /*--- Colors --*/
 .b-pink{
-  background-color: #AE85B2;
+  background-color: rgba(174, 133, 178, 0.5);
 }
 .b-lightpurple{
   background-color: rgba(127, 143, 205, 0.5);
 }
 .b-purple{
-  background-color: #68508D;
+  background-color: rgba(104, 80, 141, 0.5);
 }
 .b-darkpurple{
-  background-color: #1A1663;
+  background-color: rgba(26, 22, 99, 0.5);
 }
 .b-grey{
-  background-color: #E5E5E5;
+  background-color: rgba(229, 229, 229, 0.6);
 }
 .b-white{
   background-color: #FEFCFC;
@@ -44,10 +44,13 @@ h1{
   font-size: 6em;
 }
 h2{
-  font-size: 2em;
+  font-size: 2.5em;
 }
 h3{
-  font-size: 20px;
+  font-size: 24px;
+}
+p{
+  font-size: 18px;
 }
 .title-project{
   font-size: 4em;
@@ -62,10 +65,7 @@ h3{
 a{
   font-size: 16px;
   font-weight: 400;
-  cursor: pointer;
   text-decoration: none;
-  letter-spacing: 4px;
-  transition: all 0.5s ease-in-out;
 }
 a:hover{
   text-decoration: none;
@@ -76,4 +76,17 @@ a:hover{
 .pd-sections{
   padding: 8% 0;
 }
+.pd-projects{
+  padding: 5% 0;
+}
 
+/*--- Others ---*/
+.navbar-nav{
+  padding-left: 600px;
+}
+html {
+  scroll-behavior: smooth;
+}
+#nav{
+  transition: all .3s ease-in;
+}
