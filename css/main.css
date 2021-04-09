@@ -12,7 +12,7 @@
   background-color: rgba(26, 22, 99, 0.5);
 }
 .b-grey{
-  background-color: rgba(229, 229, 229, 0.6);
+  background-color: rgba(239, 239, 239, 0.6);
 }
 .b-white{
   background-color: #FEFCFC;
@@ -91,8 +91,8 @@ html {
   transition: all .3s ease-in;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   iframe{
-    max-width: 340px;
+    width: 320px;
   }
  }
