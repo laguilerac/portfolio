@@ -95,4 +95,7 @@ html {
   iframe{
     width: 320px;
   }
+  .navbar-nav {
+    padding-left: 8px;
+  }
  }
