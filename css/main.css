@@ -90,3 +90,9 @@ html {
 #nav{
   transition: all .3s ease-in;
 }
+
+@media (min-width: 576px) {
+  iframe{
+    max-width: 340px;
+  }
+ }
