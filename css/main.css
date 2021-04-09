@@ -96,6 +96,9 @@ html {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 5em;
+  }
   iframe{
     width: 320px;
   }
